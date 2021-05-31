@@ -65,11 +65,11 @@ class UIFunctions(QMainWindow):
             self.ui.frame_size_grip.show()
 
     ## ==> RETURN STATUS
-    def returStatus():
+    def returStatus(self):
         return GLOBAL_STATE
 
     ## ==> SET STATUS
-    def setStatus(statu):
+    def setStatus(status):
         global GLOBAL_STATE
         GLOBAL_STATE = status
 
@@ -118,7 +118,7 @@ class UIFunctions(QMainWindow):
         self.ui.label_title_bar_top.setText(text)
 
     # LABEL DESCRIPTION
-    # def labelDescription(self, text):
+    # def labelDescription(self, text):c
     #     self.ui.label_top_info_1.setText(text)
 
     ## ==> DYNAMIC MENUS

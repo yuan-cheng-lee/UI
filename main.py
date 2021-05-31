@@ -16,10 +16,7 @@
 
 import sys
 import platform
-# from PySide2 import QtCore, QtGui, QtWidgets
-# from PySide2.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime, QMetaObject, QObject, QPoint, QRect, QSize, QTime, QUrl, Qt, QEvent)
-# from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase, QIcon, QKeySequence, QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
-# from PySide2.QtWidgets import *
+
 from ui_main import Ui_MainWindow
 # IMPORT QSS CUSTOM
 from ui_styles import Style
@@ -55,7 +52,7 @@ class MainWindow(QMainWindow):
 
         ## PRINT ==> SYSTEM
         print('System: ' + platform.system())
-        print('Version: ' +platform.release())
+        print('Version: ' + platform.release())
 
         ########################################################################
         ## START - WINDOW ATTRIBUTES
